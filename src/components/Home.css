@@ -162,6 +162,7 @@
 @media (max-width: 500px) {
   .home {
     background: #fafafa;
+    width: 100%;
   }
   .container {
     display: flex;

@@ -1,5 +1,4 @@
 .about {
-  width: 1100px;
   display: flex;
   flex-direction: row;
   align-content: center;
@@ -9,4 +8,18 @@
 }
 .complain {
   padding-left: 100px;
+}
+@media (max-width: 500px) {
+  .about {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+  }
+  .contact {
+    padding-left: 10px;
+  }
+  .complain {
+    padding-left: 10px;
+  }
 }

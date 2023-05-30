@@ -47,7 +47,7 @@
   .table-water {
     background: #fafafac4;
     padding-left: 10px;
-    max-width: 300px;
+    width: 100%;
   }
   .title {
     padding-left: 50px;

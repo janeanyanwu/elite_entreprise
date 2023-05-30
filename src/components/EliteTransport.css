@@ -39,7 +39,7 @@
 @media (max-width: 500px) {
   .transport {
     background: #fafafac4;
-    max-width: 300px;
+    width: 100%;
   }
   .head {
     margin-top: -35px;

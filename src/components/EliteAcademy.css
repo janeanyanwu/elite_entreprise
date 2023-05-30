@@ -60,7 +60,7 @@
     margin-top: 0px;
     height: 100px;
     background: #fafafac4;
-    max-width: 300px;
+    width: 100%;
   }
   .span span {
     font-size: 30px;

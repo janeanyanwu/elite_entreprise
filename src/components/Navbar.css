@@ -62,7 +62,7 @@
     flex-direction: column;
     color: #737373;
     padding-left: 0px;
-    max-width: 100px;
+    width: 100%;
   }
   .navbar h1 {
     color: #737373;
@@ -72,7 +72,7 @@
   .navbar-collapse {
     display: flex;
     margin-top: -50px;
-    padding-left: 150px;
+    padding-left: 100px;
     color: #737373;
   }
 }
