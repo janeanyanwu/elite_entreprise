@@ -1,0 +1,13 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 5862px;
+  background: #ffffff;
+}
+@media (max-width: 500px) {
+  .cover {
+    max-width: 500px;
+    background: #ffffff;
+  }
+}

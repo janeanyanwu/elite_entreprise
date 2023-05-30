@@ -1,0 +1,12 @@
+.about {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.contact {
+  padding-left: 100px;
+}
+.complain {
+  padding-left: 100px;
+}

@@ -1,0 +1,77 @@
+.transport {
+  background: #fafafac4;
+}
+.head {
+  margin-top: 50px;
+  padding-left: 50px;
+}
+
+.head h5 {
+  color: #96bb7c;
+}
+.head h2 {
+  margin-top: -5px;
+  color: #96bb7c;
+}
+.head p {
+  margin-top: -10px;
+  max-width: 400px;
+  font-size: 20px;
+  padding-left: 20px;
+}
+.vehicles {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  height: 500px;
+}
+.vehicles img {
+  height: 300px;
+}
+.vehicle-1 {
+  height: 350px;
+  margin-right: -20px;
+}
+.vehicle-2 {
+  height: 350px;
+  padding-left: 100px;
+}
+@media (max-width: 500px) {
+  .transport {
+    background: #fafafac4;
+    max-width: 300px;
+  }
+  .head {
+    margin-top: -35px;
+    padding-left: 50px;
+  }
+
+  .head h5 {
+    color: #96bb7c;
+  }
+  .head h2 {
+    margin-top: -5px;
+    color: #96bb7c;
+  }
+  .head p {
+    margin-top: -10px;
+    max-width: 400px;
+    font-size: 20px;
+    padding-left: 10px;
+  }
+  .vehicles {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    height: 700px;
+  }
+  .vehicles img {
+    padding: 0px;
+  }
+  .vehicle-2 {
+    margin-left: -90px;
+  }
+  .vehicle-1 {
+    margin-right: 0px;
+  }
+}

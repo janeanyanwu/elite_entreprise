@@ -1,0 +1,51 @@
+.gas {
+  background: #fafafac4;
+  padding-left: 70px;
+}
+.cooking-gas {
+  height: 600px;
+}
+.cooking-gas p {
+  font-weight: bold;
+  text-align: center;
+}
+.cooking-gas h3 {
+  color: #96bb7c;
+  padding-left: 30px;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+}
+.image img {
+  width: 300px;
+  height: 400px;
+  padding-left: 50px;
+}
+@media (max-width: 500px) {
+  .gas {
+    margin-top: 30px;
+    background: #fafafac4;
+    max-width: 300px;
+  }
+  .cooking-gas {
+    height: 900px;
+  }
+  .cooking-gas p {
+    font-weight: bold;
+    text-align: center;
+  }
+  .cooking-gas h3 {
+    color: #96bb7c;
+    padding-left: 30px;
+  }
+  .image {
+    display: flex;
+    flex-direction: column;
+  }
+  .image img {
+    width: 300px;
+    height: 400px;
+    margin-left: -65px;
+  }
+}
