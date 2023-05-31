@@ -56,14 +56,14 @@
   .span {
     display: flex;
     flex-direction: row;
-    padding-left: 10px;
+    padding-left: 0px;
     margin-top: 0px;
     height: 100px;
     background: #fafafac4;
-    width: 100%;
+    width: 80%;
   }
   .span span {
-    font-size: 30px;
+    font-size: 20px;
     padding-right: 90px;
     color: #96bb7c;
   }
@@ -74,14 +74,14 @@
     padding-left: 0px;
   }
   .text p {
-    font-size: 15px;
-    padding-right: 50px;
+    font-size: 12px;
+    padding-right: 80px;
   }
   .academy-container {
     background-color: bisque;
     margin-top: -22px;
     height: 500px;
-    width: 100%;
+    width: 80%;
   }
   .academy-container h3 {
     padding-left: 30px;
@@ -107,6 +107,6 @@
     padding-left: 50px;
   }
   .images img {
-    width: 400px;
+    width: fit-content;
   }
 }

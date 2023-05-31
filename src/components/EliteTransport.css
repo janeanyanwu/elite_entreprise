@@ -1,5 +1,6 @@
 .transport {
   background: #fafafac4;
+  max-width: 100%;
 }
 .head {
   margin-top: 50px;
@@ -66,7 +67,7 @@
     height: 700px;
   }
   .vehicles img {
-    padding: 0px;
+    width: 300px;
   }
   .vehicle-2 {
     margin-left: -90px;
